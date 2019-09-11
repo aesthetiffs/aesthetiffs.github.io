@@ -1,0 +1,130 @@
+body {
+	z-index: -1;
+	margin: 0;
+	background-color: #fbfbfb;
+}
+
+a {
+	color: #00869e;
+}
+
+a:hover {
+	color: #818181;
+}
+
+h3 {
+	color: #818181;
+}
+
+.toggle-top {
+	padding-top: 4vh;
+	width: 10%;
+	float: left;
+	z-index: 10;
+	position:fixed;
+}
+
+#three-bars:hover {
+	cursor: pointer;
+}
+
+.nav-menu {
+	height: 100%; /* 100% Full-height */
+	width: 0; /* 0 width - change this with JavaScript */
+	position: fixed; /* Stay in place */
+	z-index: 100; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	background-color: #fff; /* Black*/
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 0px; /* Place content 60px from the top */
+	padding-left: 1vw;
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	background-color: #f5f5f5;
+	overflow: hidden;
+}
+
+.nav-menu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.25em;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.nav-menu a:hover {
+  text-decoration: none;
+  color: #00a7c4;
+  display: block;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+a.rightLink {
+	color: #000;
+	text-decoration: none;
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+	z-index: 10;
+	    /* raises anchor tag above everything else in div */
+    background-color: white;
+    /*workaround to make clickable in IE */
+    opacity: 0;
+    /*workaround to make clickable in IE */
+    filter: alpha(opacity=0);
+    /*workaround to make clickable in IE */
+}
+
+a.rightLink:hover {
+	text-decoration: none;
+	height: 39vh;
+}
+
+a.closebtn {
+	text-decoration: none;
+	font-size: 6vh;
+}
+
+
+.bar {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 25%;
+	opacity: 0.3;
+	padding-left: 0;
+	cursor: pointer;
+	display: block;
+}
+
+#researchBar {
+	background-image: url(pics/research.png);
+}
+	
+#projectBar {
+	background-image: url(pics/projects2.png);
+}
+
+#cvBar {
+	background-image: url(pics/cv4.png);
+}
+
+#contactBar {
+	background-image: url(pics/contact3.png);
+}
+
+.socialRow {
+	height: 4vh;
+	padding-left: 0.5vw;
+}
+
+.socialButton {
+	color:#ababab;
+}
+
+#socialFooter a:hover {
+	text-decoration: none;
+}
