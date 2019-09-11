@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>Tiffani Ng | {{ page.title }}</title>
+		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<link href="css/breaks-content.css" rel="stylesheet" type="text/css">
+		
+		
+		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="icons/apple-touch-icon-57x57.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="icons/apple-touch-icon-114x114.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="icons/apple-touch-icon-72x72.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/apple-touch-icon-144x144.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="60x60" href="icons/apple-touch-icon-60x60.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="icons/apple-touch-icon-120x120.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="76x76" href="icons/apple-touch-icon-76x76.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="icons/apple-touch-icon-152x152.png" />
+		<link rel="icon" type="image/png" href="icons/favicon-196x196.png" sizes="196x196" />
+		<link rel="icon" type="image/png" href="icons/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/png" href="icons/favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="icons/favicon-16x16.png" sizes="16x16" />
+		<link rel="icon" type="image/png" href="icons/favicon-128.png" sizes="128x128" />
+		<meta name="application-name" content="&nbsp;"/>
+		<meta name="msapplication-TileColor" content="#FFFFFF" />
+		<meta name="msapplication-TileImage" content="icons/mstile-144x144.png" />
+		<meta name="msapplication-square70x70logo" content="icons/mstile-70x70.png" />
+		<meta name="msapplication-square150x150logo" content="icons/mstile-150x150.png" />
+		<meta name="msapplication-wide310x150logo" content="icons/mstile-310x150.png" />
+		<meta name="msapplication-square310x310logo" content="icons/mstile-310x310.png" />
+		
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+		
+	</head>
+  
+	<body>	
+
+	<!-- Navbar -->
+	<div class="nav-menu" id="sidebarMenu">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a>
+		<a href="research.html">Research</a> 
+			<ul style="list-style-type:none;">
+				<li><a href="insight.html">Insight</a></li>
+				<li><a href="analysis.html">Analysis</a></li>
+				<li><a href="dt.html">Divergent Thinking</a></li>
+				<li><a href="aesthetics.html">Visual Aesthetics</a></li>
+				<li><a href="environment.html">Environmental Psychology</a></li>
+			</ul>
+		<a href="projects.html">Personal Projects</a>
+		<a href="cv.html">CV</a>		
+		<a href="contact.html">Contact</a>	
+	</div>
+  
+  <!-- main content -->
+	<div class=".container-fluid" id="main-other">
+		
+		<div class="row">
+			<div class="col-11 toggle-top" >
+			<span onclick="openNav()">
+				<i class="fas fa-bars fa-2x" style="color:#ababab; padding-left: 3vw;" id="three-bars"></i>
+			</span>
+			</div>
+		</div>
+    
+    {{ content }}
+    
+	</div>
+	
+	</body> 
+	<!-- JQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/sidebar.js"></script>
+</html>
