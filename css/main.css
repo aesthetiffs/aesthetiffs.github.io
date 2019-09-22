@@ -105,19 +105,19 @@ a.closebtn {
 }
 
 #researchBar {
-	background-image: url(pics/research.png);
+	background-image: url(pics/research.jpg);
 }
 	
 #projectBar {
-	background-image: url(pics/projects2.png);
+	background-image: url(pics/projects2.jpg);
 }
 
 #cvBar {
-	background-image: url(pics/cv4.png);
+	background-image: url(pics/cv4.jpg);
 }
 
 #contactBar {
-	background-image: url(pics/contact3.png);
+	background-image: url(pics/contact3.jpg);
 }
 
 .socialRow {
