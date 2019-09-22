@@ -104,22 +104,6 @@ a.closebtn {
 	display: block;
 }
 
-#researchBar {
-	background-image: url(pics/research.jpg);
-}
-	
-#projectBar {
-	background-image: url(pics/projects2.jpg);
-}
-
-#cvBar {
-	background-image: url(pics/cv4.jpg);
-}
-
-#contactBar {
-	background-image: url(pics/contact3.jpg);
-}
-
 .socialRow {
 	height: 4vh;
 	padding-left: 0.5vw;
